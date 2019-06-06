@@ -29,6 +29,8 @@ class Bd{
     }
   }
 
+
+
  getProximoId(){
     let proximoId = localStorage.getItem('id');
    // this.id = parseInt( proximoId ) + 1
@@ -43,6 +45,8 @@ class Bd{
     }
 
 
+
+    
   recuperarTodosRegistros(){
     
       let despesas = Array()
